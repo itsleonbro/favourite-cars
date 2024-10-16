@@ -1,0 +1,11 @@
+.navbar {
+  background: #f55a5a;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+}
