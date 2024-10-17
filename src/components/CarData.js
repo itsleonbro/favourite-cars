@@ -7,7 +7,7 @@ const cars = [
     brand: "Audi",
     model: "RS3",
     horsepower: "400",
-    "0-100 km/h": "4.1 seconds",
+    "0-100 km/h": "3.8 seconds",
     description:
       "The Audi RS3 is a high-performance compact car known for its impressive acceleration and handling.",
   },
@@ -17,7 +17,7 @@ const cars = [
       alt: "Porsche 991 Turbo S",
     },
     brand: "Porsche",
-    model: "991 Turbo S",
+    model: "911 Turbo S",
     horsepower: "640",
     "0-100 km/h": "2.7 seconds",
     description:
@@ -43,7 +43,7 @@ const cars = [
     brand: "BMW",
     model: "M4 Competition",
     horsepower: "503",
-    "0-100 km/h": "3.9 seconds",
+    "0-100 km/h": "3.5 seconds",
     description:
       "The BMW M4 Competition is a sports coupe known for its thrilling driving experience.",
   },
