@@ -3,6 +3,11 @@
   gap: 30px;
   margin: 20px;
   padding: 10px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.01);
 }
 
 .image img {
@@ -19,9 +24,27 @@
   display: block;
 }
 
-h2,
 h3,
 h4,
 p {
   margin: 8px 0;
+}
+
+@media (max-width: 425px) {
+  h3,
+  h4,
+  h5 {
+    font-weight: 600;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 350px) {
+  .car-specs {
+    flex-direction: column;
+    gap: 5px !important;
+  }
+  .car-specs span {
+    display: none;
+  }
 }

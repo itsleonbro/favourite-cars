@@ -6,7 +6,7 @@ const Card = () => {
   return (
     <>
       {cars.map(car => (
-        <div className="card mb-3" style={{ maxWidth: 940 }} key={car.model}>
+        <div className="card mb-3" style={{ maxWidth: 1300 }} key={car.model}>
           <div className="row g-0">
             <div className="col-md-4">
               <img
@@ -20,7 +20,7 @@ const Card = () => {
                 <h3 className="card-title">
                   {car.brand} {car.model}
                 </h3>
-                <div className="d-flex gap-4">
+                <div className="d-flex gap-4 car-specs">
                   <h5 className="card-title">
                     Horsepower: {car.horsepower} HP
                   </h5>
